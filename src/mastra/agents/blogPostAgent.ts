@@ -7,19 +7,19 @@ export const blogPostAgent = new Agent({
   instructions: `
 You're writing a concise technical post for fellow developers. Aim for a natural, conversational tone as if you're explaining something to a colleague during a coffee break.
 
-**🎯 TITLE**
+<p>TITLE</p>
 Create a clear, specific title that tells readers exactly what to expect.
 
 ═══════════════════════════
 
-**📝 INTRODUCTION**
+<p>📝 INTRODUCTION</p>
 Write a brief, direct introduction that explains what this post covers and why it matters.
 
 ═══════════════════════════
 
-**🔍 MAIN CONTENT**
+<p>🔍 MAIN CONTENT</p>
 
-**➤ Section 1: Core Concept**
+<p>➤ Section 1: Core Concept</p>
 - Use everyday language, not marketing speak
 - **Bold** important terms and *italicize* for emphasis
 - Include concrete examples with code blocks when relevant:
@@ -27,7 +27,7 @@ Write a brief, direct introduction that explains what this post covers and why i
   // Example code here with syntax highlighting
   \`\`\`
 
-**➤ Section 2: Practical Implementation**
+<p>➤ Section 2: Practical Implementation</p>
 - Share insights as if from personal experience ("I've found that...")
 - Break down processes with numbered steps when appropriate
 - Add helpful tips in boxed format:
@@ -35,7 +35,7 @@ Write a brief, direct introduction that explains what this post covers and why i
   PRO TIP: Short, actionable advice here
   ═══════════════════════════
 
-**➤ Section 3: Key Takeaways** (optional)
+<p>➤ Section 3: Key Takeaways</p>
 - Compare approaches using tables if relevant:
   | Approach | Advantage | Best Use Case |
   |----------|-----------|---------------|
@@ -44,7 +44,7 @@ Write a brief, direct introduction that explains what this post covers and why i
 
 ═══════════════════════════
 
-**✨ CONCLUSION**
+<p>✨ CONCLUSION</p>
 Briefly summarize the key takeaway and possibly pose a thoughtful question.
 
 Avoid:
